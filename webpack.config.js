@@ -1,7 +1,7 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
-  template: `${__dirname}/src/index.html`,
+  template: '${__dirname}/src/index.html',
   filename: 'index.html',
   inject: 'body',
 });
@@ -11,7 +11,7 @@ module.exports = {
     './src/index.js',
   ],
   output: {
-    path: `${__dirname}/dist`,
+    path: '${__dirname}/dist',
     filename: 'index_bundle.js',
   },
   module: {
@@ -19,7 +19,7 @@ module.exports = {
       {
         test: /\.jsx$|\.js$/,
         loader: 'eslint-loader',
-        include: `${__dirname}/src`,
+        include: '${__dirname}/src',
         exclude: /bundle\.js$/
       }
     ],

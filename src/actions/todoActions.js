@@ -1,11 +1,8 @@
-/**
- * Created by awu on 2016-12-19.
- */
-import {createAction} from 'redux-actions';
+import { createAction } from 'redux-actions';
 import {
-    CREATE_TODO,
-    DELETE_TODO,
-    CHANGE_TEXT
+  CREATE_TODO,
+  DELETE_TODO,
+  CHANGE_TEXT,
 } from '../constants/actionTypes';
 
 export const createTodo = createAction('CREATE_TODO');

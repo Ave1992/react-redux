@@ -1,4 +1,1 @@
-/**
- * Created by awu on 2016-12-20.
- */
-export {default} from './TodoHeader';
+export { default } from './TodoHeader';
